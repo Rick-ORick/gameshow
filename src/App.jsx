@@ -258,7 +258,7 @@ export default function App() {
         <div className="modal-overlay" onClick={() => setInfoModalOpen(false)}>
           <div className="modal transparent" onClick={(e) => e.stopPropagation()}>
             <h2>Hey there, my baby girl!</h2>
-            <p>I've made this special page for a special edition of ourt little game. Hope you enjoy ;D</p>
+            <p>I've made this special page for a special edition of ourt little game. You said no more working on the website for you but... you didn't say which one! Hope you enjoy ;D</p>
             <button className="btn" onClick={() => setInfoModalOpen(false)}>Close</button>
           </div>
         </div>
